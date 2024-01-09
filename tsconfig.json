@@ -16,7 +16,8 @@
         "noUnusedParameters": true,
         "noImplicitAny": false,
         "noImplicitThis": false,
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "declaration": true
     },
     "exclude": ["node_modules"]
 }
