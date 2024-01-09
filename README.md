@@ -1,4 +1,4 @@
-# Client for PM2-Prom-Module [![npm version](https://badge.fury.io/js/pm2-prom-module.svg)](https://www.npmjs.com/package/pm2-prom-module-client)
+# Client for PM2-Prom-Module [![npm version](https://badge.fury.io/js/pm2-prom-module-client.svg)](https://www.npmjs.com/package/pm2-prom-module-client)
 
 This client facilitates communication among all your concurrently running nodejs applications in PM2 with [PM2-Prom-Module](https://www.npmjs.com/package/pm2-prom-module). It transmits all of [prom-client](https://www.npmjs.com/package/prom-client) metrics, enhancing the monitoring and performance analysis of your applications.
 
