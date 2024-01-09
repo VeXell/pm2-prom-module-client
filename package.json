@@ -1,0 +1,30 @@
+{
+    "name": "pm2-prom-module-client",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "watch": "tsc -w -p tsconfig.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VeXell/pm2-prom-module-client.git"
+    },
+    "author": "Viacheslav Volkov (vexell@gmail.com)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/VeXell/pm2-prom-module-client/issues"
+    },
+    "homepage": "https://github.com/VeXell/pm2-prom-module-client#readme",
+    "dependencies": {
+        "prom-client": "^15.1.0"
+    },
+    "engines": {
+        "node": ">=14"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.7",
+        "typescript": "^5.3.3"
+    }
+}
