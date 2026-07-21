@@ -13,9 +13,11 @@ type IPacket = {
     };
 };
 
+type MetricsAsJSON = Awaited<ReturnType<Registry['getMetricsAsJSON']>>;
+
 type PM2BusResponse = {
     topic: string;
-    data: { metrics: any };
+    data: { metrics: MetricsAsJSON };
 };
 
 let inited = false;
