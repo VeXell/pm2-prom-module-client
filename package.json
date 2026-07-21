@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "build": "tsc -p tsconfig.json",
-        "watch": "tsc -w -p tsconfig.json"
+        "watch": "tsc -w -p tsconfig.json",
+        "release": "npm run build && npm publish"
     },
     "repository": {
         "type": "git",
